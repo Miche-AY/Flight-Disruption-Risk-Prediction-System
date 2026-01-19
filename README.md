@@ -1,0 +1,1 @@
+The dataset for this project has been compressed into a .rar file located in the "data" folder. Since the original file is too large to upload directly to GitHub, we compressed it to make the upload possible.
