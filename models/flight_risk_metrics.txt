@@ -1,0 +1,19 @@
+Classes (disruption_risk): HIGH_DISRUPTION, NO_DISRUPTION, RISK_DISRUPTION
+
+Classification report:
+                 precision    recall  f1-score   support
+
+HIGH_DISRUPTION       0.65      0.53      0.59       459
+  NO_DISRUPTION       0.00      0.00      0.00        25
+RISK_DISRUPTION       0.65      0.77      0.70       563
+
+       accuracy                           0.65      1047
+      macro avg       0.43      0.43      0.43      1047
+   weighted avg       0.63      0.65      0.63      1047
+
+
+Confusion matrix (rows=true, cols=pred):
+                 HIGH_DISRUPTION  NO_DISRUPTION  RISK_DISRUPTION
+HIGH_DISRUPTION              244              0              215
+NO_DISRUPTION                  2              0               23
+RISK_DISRUPTION              129              0              434
